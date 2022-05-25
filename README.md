@@ -1,2 +1,2 @@
 # doodvideo
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/paavampayyan/doodvideo.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/samurai-maker/DOOODVIDEO)
