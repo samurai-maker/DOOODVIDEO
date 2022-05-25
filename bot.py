@@ -61,12 +61,13 @@ def doodupload(__, m:Message):
     pic = gen_cover(bg, m.message_id)
     m.reply_chat_action("upload_photo")
     m.reply_photo(photo=pic,
-                  caption=f"**{qq}**"
+                  caption=f"**🌀 {qq} 🌀**"
                             f"\n\n☉  **Watch Now 💦**"
                             f"\n└ **{link}**"
                             f"\n└ **{link}**"
                             f"\n\n☉ **[Screenshots]({ss}) **📸"
-                            f"\n\n@kidu_network2 ❤️")
+                            f"\n\n**═══[@kidu_network2 ❤️]═══**\n")
+                           
     
     m1.delete()
     os.remove(f_name)
