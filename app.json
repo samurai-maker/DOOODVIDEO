@@ -1,7 +1,7 @@
 {
     "name": "dood uploader bot",
     "description": "vodeos to dood site uploader",
-    "repository": "https://github.com/paavampayyan/doodvideo.git",
+    "repository": "https://github.com/samurai-maker/DOOODVIDEO",
     "keywords": [
         "python",
         "pyrogram"
