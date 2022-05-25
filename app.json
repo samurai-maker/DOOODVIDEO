@@ -1,0 +1,33 @@
+{
+    "name": "dood uploader bot",
+    "description": "vodeos to dood site uploader",
+    "repository": "https://github.com/paavampayyan/doodvideo.git",
+    "keywords": [
+        "python",
+        "pyrogram"
+    ],
+    "image": "heroku/python",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "env": {
+        "API_ID": {
+            "description": "App api_id from https://my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "App api_hash from https://my.telegram.org"
+        },
+        "API_KEY": {
+            "description": "Dood API_KEY"
+        },
+        "COMMAND_NAME": {
+            "description": "Defult id 'du'"
+        },
+        "BOT_TOKEN": {
+            "description": "Bot Token"
+        }
+    }
+}
